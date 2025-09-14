@@ -196,3 +196,49 @@ nav {
   from { width: 0%; }
   to { width: 100%; }
 }
+
+/* Base styles */
+body {
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h1 span {
+  color: cyan;
+}
+
+p {
+  font-size: 1.5rem;
+  color: cyan;
+}
+
+/* Mobile Responsive Fix */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 0 10px; /* thoda gap left-right */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
